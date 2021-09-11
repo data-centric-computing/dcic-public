@@ -1,0 +1,33 @@
+name: Web Page Suggestion
+description: Suggest an improvement to a Web page
+title: "[DCIC Web Page]: please enter a brief summary here"
+assignees:
+  - kfisler
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to tell us about this!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more information?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: which-web-page
+    attributes:
+      label: Which Web page are you commenting on?
+      description: Please paste in the URL (Web address) of the page.
+      value: "https://dcic-world.org/…"
+    validations:
+      required: true
+  - type: textarea
+    id: what-to-do-
+    attributes:
+      label: What's your suggestion?
+      description: Please tell us how you'd like to see it improved.
+    validations:
+      required: true
