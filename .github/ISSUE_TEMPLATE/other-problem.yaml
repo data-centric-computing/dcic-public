@@ -1,0 +1,25 @@
+name: Other Problem or Suggestion
+description: Report about something else
+title: "[DCIC]: please enter a brief summary here"
+assignees:
+  - kfisler
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to tell us about this!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more information?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-you-want
+    attributes:
+      label: What's your suggestion?
+      description: Please tell us what you have in mind.
+    validations:
+      required: true
