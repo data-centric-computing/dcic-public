@@ -1,6 +1,6 @@
 name: Web Page Error
 description: Report a problem on a Web page
-title: "[DCIC Web Page]: "
+title: "[DCIC Web Page]: please enter a brief summary here"
 assignees:
   - kfisler
 body:
@@ -12,17 +12,16 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      description: How can we get in touch with you if we need more information?
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: which-web-page
     attributes:
       label: Which Web page has the problem?
       description: Please paste in the URL (Web address) of the page.
-      placeholder: https://dcic-world.org/…
-      value: "Over here"
+      value: "https://dcic-world.org/…"
     validations:
       required: true
   - type: textarea
@@ -30,14 +29,12 @@ body:
     attributes:
       label: What's the problem?
       description: Please report what the problem is.
-      placeholder:
-      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What browser are you seeing the problem on?
       multiple: true
       options:
         - Firefox
