@@ -1,0 +1,45 @@
+name: Book Problem
+description: Report a problem in the book
+title: "[DCIC Book]: please enter a brief summary here"
+assignees:
+  - kfisler
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more information?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: which-web-page
+    attributes:
+      label: Which Web page has the problem?
+      description: Please paste in the URL (Web address) of the page.
+      value: "https://dcic-world.org/…"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What's the problem?
+      description: Please report what the problem is.
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browser are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Brave
+        - Other
