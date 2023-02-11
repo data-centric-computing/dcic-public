@@ -1,0 +1,13 @@
+month,division,northwest,northeast,central,southeast,southwest
+Jan,medical,125,91,78,83,93
+Feb,medical,89,70,50,74,117
+Mar,medical,120,123,85,121,118
+Apr,medical,95,70,76,53,94
+May,medical,124,77,88,50,124
+Jun,medical,76,90,51,98,125
+Jul,medical,122,87,120,77,122
+Aug,medical,83,119,122,102,106
+Sep,medical,121,94,117,54,103
+Oct,medical,77,67,79,65,101
+Nov,medical,80,92,115,100,98
+Dec,medical,124,120,114,87,105
