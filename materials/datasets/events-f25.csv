@@ -1,8 +1,8 @@
 Name,Email,Num Tickets,Discount Code,Delivery,Zip Code
 Josie Zhao,jo@mail.com,2,BIRTHDAY,email,90210
-Sam Ochibe,s@sweb.com,1,,pickup,30301
+Sam Ochibe,s@sweb.com,1,  ,pickup,30301
 Bart Simple,bart@simpson.org,5,STUDENT,yes,60614
 Ernie O'Malley,ernie.mail.com,0,none,email,10001
 Alvina Velasquez,alvie@schooledu,3,student,emall,73301
 Zander,zandaman,10,,email,02115
-Shweta Chowpatti,snc@this.org,3, ,pickup,02903
+Shweta Chowpatti,snc@this.org,3,     ,pickup,02903
